@@ -70,10 +70,10 @@ main {
 .main__box {
   background-color: #44849b;
   width: 36rem;
-  height: 17.5rem;
+  height: 16rem;
   z-index: 400;
   position: absolute;
-  top: 72%;
+  top: 70%;
   left: 50%;
   transform: translate(-50%, -50%);
   border-radius: 0.2rem;
@@ -120,7 +120,7 @@ main {
 
 .options {
   padding: 0.5rem;
-  margin-top: 10px;
+  margin-top: 5px;
   display: flex;
   justify-content: space-around;
 }
@@ -143,4 +143,53 @@ main {
 .footer ion-icon {
   color: #fff;
   font-size: 16px;
+}
+
+@media screen and (max-width: 750px) {
+  .main__box {
+    background-color: #44849b;
+    width: 23rem;
+    height: 12rem;
+  }
+
+  .main__box-heading {
+    padding: 8px;
+  }
+
+  .main__box-heading p {
+    color: #333;
+    font-size: 0.7rem;
+  }
+
+  .main__box-heading ion-icon {
+    font-size: 22px;
+  }
+
+  .time__container {
+    width: 100%;
+    gap: 1rem;
+    padding: 1rem;
+    margin: 0;
+  }
+
+  .time {
+    color: #fff;
+    font-size: 2rem;
+  }
+
+  .time span {
+    font-size: 0.7rem;
+    margin-left: 5px;
+  }
+
+  .options {
+    padding: 0.5rem;
+    margin-top: 5px;
+  }
+
+  .options ion-icon {
+    margin-top: 0.5rem;
+    font-size: 20px;
+    color: #333;
+  }
 }
