@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+
+    <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <div class="container__heading">
+          <h1>Count Down</h1>
+          <h4>Till my Birth Day 😁 25th Oct 2022</h4>
+        </div>
+
+        <div class="cloud" style="overflow: hidden">
+          <img src="./cloud1.png" style="--i: 1" />
+          <img src="./cloud1.png" style="--i: 2" />
+          <img src="./cloud1.png" style="--i: 3" />
+          <img src="./cloud1.png" style="--i: 4" />
+          <img src="./cloud1.png" style="--i: 5" />
+        </div>
+      </div>
+    </main>
+    <div class="section--2">
+      <div class="main__box">
+        <div class="main__box-heading">
+          <p>Countdown Timer</p>
+
+          <ion-icon name="close-outline"></ion-icon>
+        </div>
+        <div class="time__container">
+          <div class="time day">
+            <div class="textcontent">01</div>
+            <span>Day</span>
+          </div>
+          <div class="time hour">
+            <div class="textcontent">01</div>
+            <span>Hour</span>
+          </div>
+          <div class="time minute">
+            <div class="textcontent">01</div>
+            <span>Min</span>
+          </div>
+          <div class="time second">
+            <div class="textcontent">01</div>
+            <span>Sec</span>
+          </div>
+        </div>
+        <div class="options">
+          <ion-icon name="create"></ion-icon>
+          <ion-icon name="reload-circle"></ion-icon>
+          <ion-icon name="pause"></ion-icon>
+          <ion-icon name="settings"></ion-icon>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="footer">
+        <div>@ Copyright Shulab Thapa</div>
+        <div>Version 1.1</div>
+      </div>
+    </footer>
+
+    <script src="./main.js"></script>
+  </body>
+</html>
